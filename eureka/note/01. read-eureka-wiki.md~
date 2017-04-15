@@ -1,15 +1,4 @@
----
-title: Eurkea 简单介绍
-date: 2017-04-15 10:00:00
-categories: [Eureka]
-tags: [Eureka]
----
-
-个人博客原文：[]()
-
-> 摘要：本文简单介绍 Eureka
-
-​# Eureka 是什么？
+# Eureka 是什么？
 
 Eureka 是基于 REST 的一种用于负载均衡和故障切换的一个中间服务。是 Netflix 公司开源的一个产品，在微服务架构中用于服务注册与发现，也被 Spring Cloud 集成。
 
