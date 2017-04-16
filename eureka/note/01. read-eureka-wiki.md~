@@ -5,7 +5,7 @@ Eureka 是基于 REST 的一种用于负载均衡和故障切换的一个中间�
 # 架构
 
 图中每一个 Eureka Server 都是一个集群，每个集群可以互相备份。Application Service 是一个服务应用，而 Application Client 是一个客户端应用，两者的区别在于 Application Service 是被调用方，而 Application Client 是调用方，两者都注册到 Eureka Server 上，并在 Eureka Client 里面一直和 Eureka Server 通讯，拉取注册在 Eureka Server 上的程序信息到本地。
-![Eureka架构图](https://github.com/1CSH1/technology-stack/eureka/img/01.eureka-architecture.png)
+![Eureka架构图](https://github.com/1CSH1/technology-stack/blob/master/eureka/img/01.eureka-architecture.png)
 
 # 配置 Eureka Client
 
@@ -45,6 +45,14 @@ Eureka Service Urls (eureka.serviceUrls)
 
 ## 运行 eureka server
 将 eureka-server-xxx.war 放在 tomcat 的 webapps 目录下，并修改名字为 eureka.war
+
+# Eureka 支持 REST 请求
+
+可以在 [Eureka REST operations](https://github.com/Netflix/eureka/wiki/Eureka-REST-operations) 查看，支持 XML 和 JSON 格式报文
+
+
+
+
 
 
 
