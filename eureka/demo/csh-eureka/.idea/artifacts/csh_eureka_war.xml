@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="csh-eureka:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="csh-eureka.war">
+      <element id="artifact" artifact-name="csh-eureka:war exploded" />
+    </root>
+  </artifact>
+</component>
