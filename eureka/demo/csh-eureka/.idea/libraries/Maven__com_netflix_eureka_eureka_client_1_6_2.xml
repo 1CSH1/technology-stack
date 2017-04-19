@@ -1,13 +1,28 @@
 <component name="libraryTable">
   <library name="Maven: com.netflix.eureka:eureka-client:1.6.2">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../study/java/maven/maven/repository/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2.jar!/" />
+      <root url="jar:///csh/study/java/maven/maven/repository/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/../../../study/java/maven/maven/repository/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2-javadoc.jar!/" />
+      <root url="jar:///csh/study/java/maven/maven/repository/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../../study/java/maven/maven/repository/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2-sources.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../source/eureka-master/eureka-client-archaius2/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../source/eureka-master/eureka-client-archaius2/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../source/eureka-master/eureka-client-jersey2/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../source/eureka-master/eureka-client-jersey2/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../source/eureka-master/eureka-client/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../source/eureka-master/eureka-client/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../source/eureka-master/eureka-core-jersey2/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../source/eureka-master/eureka-core-jersey2/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../source/eureka-master/eureka-core/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../source/eureka-master/eureka-core/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../source/eureka-master/eureka-examples/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../source/eureka-master/eureka-server-governator/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../source/eureka-master/eureka-server/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../source/eureka-master/eureka-test-utils/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../source/eureka-master/eureka-test-utils/src/test/java" />
+      <root url="jar:///csh/study/java/maven/maven/repository/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
