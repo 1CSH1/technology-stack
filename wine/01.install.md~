@@ -1,0 +1,31 @@
+Installing WineHQ packages
+If you have previously installed a Wine package from another repository, please remove it and any packages that depend on it (e.g., wine-mono, wine-gecko, winetricks) before attempting to install the WineHQ packages, as they may cause dependency conflicts.
+
+If your system is 64 bit, enable 32 bit architecture (if you haven't already):
+
+sudo dpkg --add-architecture i386 
+Add the repository:
+
+wget https://dl.winehq.org/wine-builds/Release.key
+sudo apt-key add Release.key
+sudo apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/
+Update packages:
+
+sudo apt-get update
+Then install one of the following packages:
+
+Stable branch	
+sudo apt-get install --install-recommends winehq-stable
+Development branch	
+sudo apt-get install --install-recommends winehq-devel
+Staging branch	
+sudo apt-get install --install-recommends winehq-staging
+If apt-get complains about missing dependencies, install them, then repeat the last two steps (update and install).
+
+If you have previously used the distro packages, you will notice some differences in the WineHQ ones:
+
+Files are installed to /opt/wine-devel.
+Menu items are not created for Wine's builtin programs (winecfg, etc.), and if you are upgrading from a distro package that had added them, they will be removed. You can recreate them yourself using your menu editor.
+Binfmt_misc registration is not added. Consult your distro's documentation for update-binfmts if you wish to do this manually.
+WineHQ does not at present package wine-gecko or wine-mono. When creating a new wine prefix, you will be asked if you want to download those components. For best compatibility, it is recommended to click Yes here. If the download doesn't work for you, please follow the instructions on the Gecko and Mono wiki pages to install them manually.
+
