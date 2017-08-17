@@ -7,6 +7,20 @@ import java.util.Map;
  * Created by jamescsh on 8/16/17.
  */
 public class TwoSum {
+/*
+Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+Example:
+
+Given nums = [2, 7, 11, 15], target = 9,
+
+Because nums[0] + nums[1] = 2 + 7 = 9,
+return [0, 1].
+
+*/
+
     /*
     Time complexity: O(n)
     Space complexity: O(n)
@@ -46,7 +60,7 @@ public class TwoSum {
         return null;
     }
 
-    
+
     public static void main(String[] args) {
         TwoSum ts = new TwoSum();
         int[] nums = new int[]{2, 7, 11, 13};
