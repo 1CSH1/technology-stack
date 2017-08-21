@@ -71,16 +71,19 @@ Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer 
     }
 
     /*
-
+    Time complexity: O(n)
      */
     public int lengthOfLongestSubstring3(String s) {
         Map<Character, Integer> map = new HashMap<>();
         int longest = 0;
         for (int i = 0, j = 0; j < s.length(); j ++) {
+            // 如果出现重复字符串，则获取重复字符串上一次出现的位置和现在的 i 的大小，将最大值赋值给 i
             if (map.containsKey(s.charAt(j))) {
                 i = Math.max(map.get(s.charAt(j)), i);
             }
+            // 计算得到最长的不重复字符串长度
             longest = Math.max(longest, j - i + 1);
+            // 将字符串以及位置放到Map中
             map.put(s.charAt(j), j + 1);
         }
         return longest;
@@ -88,7 +91,7 @@ Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer 
 
     public static void main(String[] args) {
         LongestSubstringWithoutRepeatingCharacters a = new LongestSubstringWithoutRepeatingCharacters();
-        System.out.println(a.lengthOfLongestSubstring1("abcabcbb")); // 3
+        System.out.println(a.lengthOfLongestSubstring3("abcabcbb")); // 3
         System.out.println(a.lengthOfLongestSubstring1("bbbbb"));  // 1
         System.out.println(a.lengthOfLongestSubstring1("pwwkew"));  // 3
     }
