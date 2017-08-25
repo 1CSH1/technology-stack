@@ -1,4 +1,4 @@
-package com.csh.leetcode.c00007;
+package com.csh.leetcode.c0007;
 
 /**
  * Created by jamescsh on 8/23/17.
